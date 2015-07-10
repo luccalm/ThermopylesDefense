@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E245AF2A1B4DBC11003C79DD /* soldierNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E245AF291B4DBC11003C79DD /* soldierNode.swift */; };
+		E2963A3E1B5043BF009CFEEE /* andandoEspada.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E2963A351B5043BF009CFEEE /* andandoEspada.atlas */; };
+		E2963A3F1B5043BF009CFEEE /* andandoLanca.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E2963A361B5043BF009CFEEE /* andandoLanca.atlas */; };
+		E2963A401B5043BF009CFEEE /* atacandoEspada.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E2963A371B5043BF009CFEEE /* atacandoEspada.atlas */; };
+		E2963A411B5043BF009CFEEE /* atacandoLanca.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E2963A381B5043BF009CFEEE /* atacandoLanca.atlas */; };
+		E2963A421B5043BF009CFEEE /* defesaEspada.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E2963A391B5043BF009CFEEE /* defesaEspada.atlas */; };
+		E2963A431B5043BF009CFEEE /* defesaLanca.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E2963A3A1B5043BF009CFEEE /* defesaLanca.atlas */; };
+		E2963A441B5043BF009CFEEE /* lançandoDardo.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E2963A3B1B5043BF009CFEEE /* lançandoDardo.atlas */; };
+		E2963A451B5043BF009CFEEE /* respirandoEspada.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E2963A3C1B5043BF009CFEEE /* respirandoEspada.atlas */; };
+		E2963A461B5043BF009CFEEE /* respirandoLanca.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E2963A3D1B5043BF009CFEEE /* respirandoLanca.atlas */; };
+		E2963A4B1B5043CB009CFEEE /* persaAtaque.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E2963A471B5043CB009CFEEE /* persaAtaque.atlas */; };
+		E2963A4C1B5043CB009CFEEE /* persaCorrendo.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E2963A481B5043CB009CFEEE /* persaCorrendo.atlas */; };
+		E2963A4D1B5043CB009CFEEE /* persaMorreu.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E2963A491B5043CB009CFEEE /* persaMorreu.atlas */; };
+		E2963A4E1B5043CB009CFEEE /* persaRespirando.atlas in Resources */ = {isa = PBXBuildFile; fileRef = E2963A4A1B5043CB009CFEEE /* persaRespirando.atlas */; };
+		E2963A501B504465009CFEEE /* ActionSpartanIdleSword.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2963A4F1B504465009CFEEE /* ActionSpartanIdleSword.swift */; };
+		E2A9D5561B4B8A070034D90F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9D5551B4B8A070034D90F /* AppDelegate.swift */; };
+		E2A9D5581B4B8A070034D90F /* IntroScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E2A9D5571B4B8A070034D90F /* IntroScene.sks */; };
+		E2A9D55A1B4B8A070034D90F /* IntroScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9D5591B4B8A070034D90F /* IntroScene.swift */; };
+		E2A9D55C1B4B8A070034D90F /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9D55B1B4B8A070034D90F /* GameViewController.swift */; };
+		E2A9D55F1B4B8A070034D90F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2A9D55D1B4B8A070034D90F /* Main.storyboard */; };
+		E2A9D5611B4B8A070034D90F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2A9D5601B4B8A070034D90F /* Images.xcassets */; };
+		E2A9D5641B4B8A070034D90F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2A9D5621B4B8A070034D90F /* LaunchScreen.xib */; };
+		E2A9D5701B4B8A070034D90F /* Termopilas_v001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9D56F1B4B8A070034D90F /* Termopilas_v001Tests.swift */; };
+		E2A9D57A1B4C58EF0034D90F /* Level1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9D5791B4C58EF0034D90F /* Level1.swift */; };
+		E2A9D57C1B4C59310034D90F /* Level1.sks in Resources */ = {isa = PBXBuildFile; fileRef = E2A9D57B1B4C59300034D90F /* Level1.sks */; };
+		E2A9D5811B4C5DCB0034D90F /* OptionsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9D5801B4C5DCB0034D90F /* OptionsScene.swift */; };
+		E2A9D5831B4C5DDC0034D90F /* ShopScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2A9D5821B4C5DDC0034D90F /* ShopScene.swift */; };
+		E2A9D5851B4C5DF10034D90F /* OptionsScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E2A9D5841B4C5DF10034D90F /* OptionsScene.sks */; };
+		E2A9D5871B4C5DFD0034D90F /* ShopScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E2A9D5861B4C5DFD0034D90F /* ShopScene.sks */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E2A9D56A1B4B8A070034D90F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E2A9D5481B4B8A070034D90F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E2A9D54F1B4B8A070034D90F;
+			remoteInfo = Termopilas_v001;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E245AF291B4DBC11003C79DD /* soldierNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = soldierNode.swift; sourceTree = "<group>"; };
+		E2963A351B5043BF009CFEEE /* andandoEspada.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = andandoEspada.atlas; path = Termopilas_imgs/Personagens/espartano/andandoEspada.atlas; sourceTree = SOURCE_ROOT; };
+		E2963A361B5043BF009CFEEE /* andandoLanca.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = andandoLanca.atlas; path = Termopilas_imgs/Personagens/espartano/andandoLanca.atlas; sourceTree = SOURCE_ROOT; };
+		E2963A371B5043BF009CFEEE /* atacandoEspada.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = atacandoEspada.atlas; path = Termopilas_imgs/Personagens/espartano/atacandoEspada.atlas; sourceTree = SOURCE_ROOT; };
+		E2963A381B5043BF009CFEEE /* atacandoLanca.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = atacandoLanca.atlas; path = Termopilas_imgs/Personagens/espartano/atacandoLanca.atlas; sourceTree = SOURCE_ROOT; };
+		E2963A391B5043BF009CFEEE /* defesaEspada.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = defesaEspada.atlas; path = Termopilas_imgs/Personagens/espartano/defesaEspada.atlas; sourceTree = SOURCE_ROOT; };
+		E2963A3A1B5043BF009CFEEE /* defesaLanca.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = defesaLanca.atlas; path = Termopilas_imgs/Personagens/espartano/defesaLanca.atlas; sourceTree = SOURCE_ROOT; };
+		E2963A3B1B5043BF009CFEEE /* lançandoDardo.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = "lançandoDardo.atlas"; path = "Termopilas_imgs/Personagens/espartano/lançandoDardo.atlas"; sourceTree = SOURCE_ROOT; };
+		E2963A3C1B5043BF009CFEEE /* respirandoEspada.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = respirandoEspada.atlas; path = Termopilas_imgs/Personagens/espartano/respirandoEspada.atlas; sourceTree = SOURCE_ROOT; };
+		E2963A3D1B5043BF009CFEEE /* respirandoLanca.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = respirandoLanca.atlas; path = Termopilas_imgs/Personagens/espartano/respirandoLanca.atlas; sourceTree = SOURCE_ROOT; };
+		E2963A471B5043CB009CFEEE /* persaAtaque.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = persaAtaque.atlas; path = Termopilas_imgs/Personagens/persas/persaAtaque.atlas; sourceTree = SOURCE_ROOT; };
+		E2963A481B5043CB009CFEEE /* persaCorrendo.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = persaCorrendo.atlas; path = Termopilas_imgs/Personagens/persas/persaCorrendo.atlas; sourceTree = SOURCE_ROOT; };
+		E2963A491B5043CB009CFEEE /* persaMorreu.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = persaMorreu.atlas; path = Termopilas_imgs/Personagens/persas/persaMorreu.atlas; sourceTree = SOURCE_ROOT; };
+		E2963A4A1B5043CB009CFEEE /* persaRespirando.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; name = persaRespirando.atlas; path = Termopilas_imgs/Personagens/persas/persaRespirando.atlas; sourceTree = SOURCE_ROOT; };
+		E2963A4F1B504465009CFEEE /* ActionSpartanIdleSword.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionSpartanIdleSword.swift; sourceTree = "<group>"; };
+		E2A9D5501B4B8A070034D90F /* Termopilas_v001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Termopilas_v001.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A9D5541B4B8A070034D90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A9D5551B4B8A070034D90F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E2A9D5571B4B8A070034D90F /* IntroScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = IntroScene.sks; sourceTree = "<group>"; };
+		E2A9D5591B4B8A070034D90F /* IntroScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroScene.swift; sourceTree = "<group>"; };
+		E2A9D55B1B4B8A070034D90F /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E2A9D55E1B4B8A070034D90F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E2A9D5601B4B8A070034D90F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E2A9D5631B4B8A070034D90F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		E2A9D5691B4B8A070034D90F /* Termopilas_v001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Termopilas_v001Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E2A9D56E1B4B8A070034D90F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2A9D56F1B4B8A070034D90F /* Termopilas_v001Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Termopilas_v001Tests.swift; sourceTree = "<group>"; };
+		E2A9D5791B4C58EF0034D90F /* Level1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Level1.swift; sourceTree = "<group>"; };
+		E2A9D57B1B4C59300034D90F /* Level1.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Level1.sks; sourceTree = "<group>"; };
+		E2A9D5801B4C5DCB0034D90F /* OptionsScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsScene.swift; sourceTree = "<group>"; };
+		E2A9D5821B4C5DDC0034D90F /* ShopScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShopScene.swift; sourceTree = "<group>"; };
+		E2A9D5841B4C5DF10034D90F /* OptionsScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = OptionsScene.sks; sourceTree = "<group>"; };
+		E2A9D5861B4C5DFD0034D90F /* ShopScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = ShopScene.sks; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E2A9D54D1B4B8A070034D90F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A9D5661B4B8A070034D90F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E2963A331B50432C009CFEEE /* ImgsManage */ = {
+			isa = PBXGroup;
+			children = (
+				E2963A341B50438E009CFEEE /* AtlasGroup */,
+				E2A9D5601B4B8A070034D90F /* Images.xcassets */,
+			);
+			name = ImgsManage;
+			sourceTree = "<group>";
+		};
+		E2963A341B50438E009CFEEE /* AtlasGroup */ = {
+			isa = PBXGroup;
+			children = (
+				E2963A3C1B5043BF009CFEEE /* respirandoEspada.atlas */,
+				E2963A471B5043CB009CFEEE /* persaAtaque.atlas */,
+				E2963A481B5043CB009CFEEE /* persaCorrendo.atlas */,
+				E2963A491B5043CB009CFEEE /* persaMorreu.atlas */,
+				E2963A4A1B5043CB009CFEEE /* persaRespirando.atlas */,
+				E2963A351B5043BF009CFEEE /* andandoEspada.atlas */,
+				E2963A361B5043BF009CFEEE /* andandoLanca.atlas */,
+				E2963A371B5043BF009CFEEE /* atacandoEspada.atlas */,
+				E2963A381B5043BF009CFEEE /* atacandoLanca.atlas */,
+				E2963A391B5043BF009CFEEE /* defesaEspada.atlas */,
+				E2963A3A1B5043BF009CFEEE /* defesaLanca.atlas */,
+				E2963A3B1B5043BF009CFEEE /* lançandoDardo.atlas */,
+				E2963A3D1B5043BF009CFEEE /* respirandoLanca.atlas */,
+			);
+			name = AtlasGroup;
+			sourceTree = "<group>";
+		};
+		E2A9D5471B4B8A070034D90F = {
+			isa = PBXGroup;
+			children = (
+				E2A9D5521B4B8A070034D90F /* Termopilas_v001 */,
+				E2A9D56C1B4B8A070034D90F /* Termopilas_v001Tests */,
+				E2A9D5511B4B8A070034D90F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E2A9D5511B4B8A070034D90F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E2A9D5501B4B8A070034D90F /* Termopilas_v001.app */,
+				E2A9D5691B4B8A070034D90F /* Termopilas_v001Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E2A9D5521B4B8A070034D90F /* Termopilas_v001 */ = {
+			isa = PBXGroup;
+			children = (
+				E2A9D57F1B4C5C170034D90F /* GameManage */,
+				E2A9D57D1B4C5BCB0034D90F /* Intro */,
+				E2A9D57E1B4C5BEE0034D90F /* Level1 */,
+				E2A9D5881B4C5E0C0034D90F /* Options */,
+				E2A9D5891B4C5E160034D90F /* Shop */,
+				E2A9D55D1B4B8A070034D90F /* Main.storyboard */,
+				E2963A331B50432C009CFEEE /* ImgsManage */,
+				E2A9D5621B4B8A070034D90F /* LaunchScreen.xib */,
+				E2A9D5531B4B8A070034D90F /* Supporting Files */,
+			);
+			path = Termopilas_v001;
+			sourceTree = "<group>";
+		};
+		E2A9D5531B4B8A070034D90F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2A9D5541B4B8A070034D90F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2A9D56C1B4B8A070034D90F /* Termopilas_v001Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E2A9D56F1B4B8A070034D90F /* Termopilas_v001Tests.swift */,
+				E2A9D56D1B4B8A070034D90F /* Supporting Files */,
+			);
+			path = Termopilas_v001Tests;
+			sourceTree = "<group>";
+		};
+		E2A9D56D1B4B8A070034D90F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2A9D56E1B4B8A070034D90F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E2A9D57D1B4C5BCB0034D90F /* Intro */ = {
+			isa = PBXGroup;
+			children = (
+				E2A9D5591B4B8A070034D90F /* IntroScene.swift */,
+				E2A9D5571B4B8A070034D90F /* IntroScene.sks */,
+			);
+			name = Intro;
+			sourceTree = "<group>";
+		};
+		E2A9D57E1B4C5BEE0034D90F /* Level1 */ = {
+			isa = PBXGroup;
+			children = (
+				E2A9D5791B4C58EF0034D90F /* Level1.swift */,
+				E245AF291B4DBC11003C79DD /* soldierNode.swift */,
+				E2A9D57B1B4C59300034D90F /* Level1.sks */,
+			);
+			name = Level1;
+			sourceTree = "<group>";
+		};
+		E2A9D57F1B4C5C170034D90F /* GameManage */ = {
+			isa = PBXGroup;
+			children = (
+				E2A9D5551B4B8A070034D90F /* AppDelegate.swift */,
+				E2A9D55B1B4B8A070034D90F /* GameViewController.swift */,
+				E2963A4F1B504465009CFEEE /* ActionSpartanIdleSword.swift */,
+			);
+			name = GameManage;
+			sourceTree = "<group>";
+		};
+		E2A9D5881B4C5E0C0034D90F /* Options */ = {
+			isa = PBXGroup;
+			children = (
+				E2A9D5801B4C5DCB0034D90F /* OptionsScene.swift */,
+				E2A9D5841B4C5DF10034D90F /* OptionsScene.sks */,
+			);
+			name = Options;
+			sourceTree = "<group>";
+		};
+		E2A9D5891B4C5E160034D90F /* Shop */ = {
+			isa = PBXGroup;
+			children = (
+				E2A9D5821B4C5DDC0034D90F /* ShopScene.swift */,
+				E2A9D5861B4C5DFD0034D90F /* ShopScene.sks */,
+			);
+			name = Shop;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E2A9D54F1B4B8A070034D90F /* Termopilas_v001 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2A9D5731B4B8A070034D90F /* Build configuration list for PBXNativeTarget "Termopilas_v001" */;
+			buildPhases = (
+				E2A9D54C1B4B8A070034D90F /* Sources */,
+				E2A9D54D1B4B8A070034D90F /* Frameworks */,
+				E2A9D54E1B4B8A070034D90F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Termopilas_v001;
+			productName = Termopilas_v001;
+			productReference = E2A9D5501B4B8A070034D90F /* Termopilas_v001.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E2A9D5681B4B8A070034D90F /* Termopilas_v001Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E2A9D5761B4B8A070034D90F /* Build configuration list for PBXNativeTarget "Termopilas_v001Tests" */;
+			buildPhases = (
+				E2A9D5651B4B8A070034D90F /* Sources */,
+				E2A9D5661B4B8A070034D90F /* Frameworks */,
+				E2A9D5671B4B8A070034D90F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E2A9D56B1B4B8A070034D90F /* PBXTargetDependency */,
+			);
+			name = Termopilas_v001Tests;
+			productName = Termopilas_v001Tests;
+			productReference = E2A9D5691B4B8A070034D90F /* Termopilas_v001Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E2A9D5481B4B8A070034D90F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = FantasyName;
+				TargetAttributes = {
+					E2A9D54F1B4B8A070034D90F = {
+						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = 8H2JST73A2;
+					};
+					E2A9D5681B4B8A070034D90F = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = E2A9D54F1B4B8A070034D90F;
+					};
+				};
+			};
+			buildConfigurationList = E2A9D54B1B4B8A070034D90F /* Build configuration list for PBXProject "Termopilas_v001" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E2A9D5471B4B8A070034D90F;
+			productRefGroup = E2A9D5511B4B8A070034D90F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E2A9D54F1B4B8A070034D90F /* Termopilas_v001 */,
+				E2A9D5681B4B8A070034D90F /* Termopilas_v001Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E2A9D54E1B4B8A070034D90F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2963A441B5043BF009CFEEE /* lançandoDardo.atlas in Resources */,
+				E2963A4C1B5043CB009CFEEE /* persaCorrendo.atlas in Resources */,
+				E2963A431B5043BF009CFEEE /* defesaLanca.atlas in Resources */,
+				E2A9D5641B4B8A070034D90F /* LaunchScreen.xib in Resources */,
+				E2963A3E1B5043BF009CFEEE /* andandoEspada.atlas in Resources */,
+				E2A9D5871B4C5DFD0034D90F /* ShopScene.sks in Resources */,
+				E2A9D5611B4B8A070034D90F /* Images.xcassets in Resources */,
+				E2963A451B5043BF009CFEEE /* respirandoEspada.atlas in Resources */,
+				E2A9D5581B4B8A070034D90F /* IntroScene.sks in Resources */,
+				E2963A4B1B5043CB009CFEEE /* persaAtaque.atlas in Resources */,
+				E2963A411B5043BF009CFEEE /* atacandoLanca.atlas in Resources */,
+				E2A9D5851B4C5DF10034D90F /* OptionsScene.sks in Resources */,
+				E2A9D55F1B4B8A070034D90F /* Main.storyboard in Resources */,
+				E2A9D57C1B4C59310034D90F /* Level1.sks in Resources */,
+				E2963A4E1B5043CB009CFEEE /* persaRespirando.atlas in Resources */,
+				E2963A401B5043BF009CFEEE /* atacandoEspada.atlas in Resources */,
+				E2963A3F1B5043BF009CFEEE /* andandoLanca.atlas in Resources */,
+				E2963A461B5043BF009CFEEE /* respirandoLanca.atlas in Resources */,
+				E2963A421B5043BF009CFEEE /* defesaEspada.atlas in Resources */,
+				E2963A4D1B5043CB009CFEEE /* persaMorreu.atlas in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A9D5671B4B8A070034D90F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E2A9D54C1B4B8A070034D90F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A9D5831B4C5DDC0034D90F /* ShopScene.swift in Sources */,
+				E2A9D57A1B4C58EF0034D90F /* Level1.swift in Sources */,
+				E2A9D55A1B4B8A070034D90F /* IntroScene.swift in Sources */,
+				E2A9D55C1B4B8A070034D90F /* GameViewController.swift in Sources */,
+				E2963A501B504465009CFEEE /* ActionSpartanIdleSword.swift in Sources */,
+				E2A9D5811B4C5DCB0034D90F /* OptionsScene.swift in Sources */,
+				E245AF2A1B4DBC11003C79DD /* soldierNode.swift in Sources */,
+				E2A9D5561B4B8A070034D90F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E2A9D5651B4B8A070034D90F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2A9D5701B4B8A070034D90F /* Termopilas_v001Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E2A9D56B1B4B8A070034D90F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E2A9D54F1B4B8A070034D90F /* Termopilas_v001 */;
+			targetProxy = E2A9D56A1B4B8A070034D90F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E2A9D55D1B4B8A070034D90F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2A9D55E1B4B8A070034D90F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E2A9D5621B4B8A070034D90F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E2A9D5631B4B8A070034D90F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E2A9D5711B4B8A070034D90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2A9D5721B4B8A070034D90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E2A9D5741B4B8A070034D90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Termopilas_v001/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E2A9D5751B4B8A070034D90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = Termopilas_v001/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E2A9D5771B4B8A070034D90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Termopilas_v001Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Termopilas_v001.app/Termopilas_v001";
+			};
+			name = Debug;
+		};
+		E2A9D5781B4B8A070034D90F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = Termopilas_v001Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Termopilas_v001.app/Termopilas_v001";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E2A9D54B1B4B8A070034D90F /* Build configuration list for PBXProject "Termopilas_v001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A9D5711B4B8A070034D90F /* Debug */,
+				E2A9D5721B4B8A070034D90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2A9D5731B4B8A070034D90F /* Build configuration list for PBXNativeTarget "Termopilas_v001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A9D5741B4B8A070034D90F /* Debug */,
+				E2A9D5751B4B8A070034D90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E2A9D5761B4B8A070034D90F /* Build configuration list for PBXNativeTarget "Termopilas_v001Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E2A9D5771B4B8A070034D90F /* Debug */,
+				E2A9D5781B4B8A070034D90F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E2A9D5481B4B8A070034D90F /* Project object */;
+}
